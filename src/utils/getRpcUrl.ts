@@ -1,5 +1,3 @@
-import sample from 'lodash/sample'
-
 if (!process.env.REACT_APP_NODE_PRODUCTION) {
   throw Error(
     'Production RPC URL is undeinfed. Check if REACT_APP_NODE_PRODUCTION enviornment variable is defined and valid.',
