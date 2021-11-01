@@ -2,7 +2,7 @@
   "settings": {
     "import/resolver": {
       "node": {
-        "paths": ["./src"]
+        "paths": ["src"]
       }
     }
   },
@@ -28,6 +28,9 @@
     "radix": 0,
     "import/no-extraneous-dependencies": 0,
     "jsx-a11y/media-has-caption": 0,
+    "react/default-props-match-prop-types": 0,
+    "react/no-unused-prop-types": 0,
+    "react/jsx-no-bind": 0,
     // Exchange
     "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["state", "memo"] }],
     "react/require-default-props": 0,
