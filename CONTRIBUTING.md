@@ -15,24 +15,13 @@ git clone git@github.com:hyjay/pancake-swap-sdk.git
 Originally, the project uses a npm distribution of pancake-swap-sdk. However, 
 this project must use `hyjay/pancake-swap-sdk` in order to work with Klaytn instead of Binance Smart Chain.
 
-2. Build the cloned SDK and register it for `@pancakeswap/sdk`
-
-```shell
-cd $HOME/pancake-swap-sdk
-yarn
-yarn build
-yarn link
-cd $HOME/pancake-frontend
-yarn link @pancakeswap/sdk
-```
-
-3. Install the dependencies
+2. Install the dependencies
 
 ```shell
 yarn
 ```
 
-4. Start the React application
+3. Start the React application
 
 ```shell
 yarn start
