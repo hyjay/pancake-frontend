@@ -1,19 +1,17 @@
-import { InjectedConnector } from '@web3-react/injected-connector'
-import { BscConnector } from '@binance-chain/bsc-connector'
 import { ConnectorNames } from '@pancakeswap/uikit'
 import { ethers } from 'ethers'
+import { KaikasConnector } from './klaytn/kaikas-connector'
 
 const POLLING_INTERVAL = 12000
 const chainId = parseInt(process.env.REACT_APP_CHAIN_ID, 10)
 
-const injected = new InjectedConnector({ supportedChainIds: [chainId] })
-
-const bscConnector = new BscConnector({ supportedChainIds: [chainId] })
+const kaikasConnector = new KaikasConnector({ supportedChainIds: [chainId] })
 
 export const connectorsByName: { [connectorName in ConnectorNames]: any } = {
-  [ConnectorNames.Injected]: injected,
+  [ConnectorNames.Injected]: undefined,
   [ConnectorNames.WalletConnect]: undefined,
-  [ConnectorNames.BSC]: bscConnector,
+  [ConnectorNames.BSC]: undefined,
+  [ConnectorNames.Kaikas]: kaikasConnector,
 }
 
 export const getLibrary = (provider): ethers.providers.Web3Provider => {
