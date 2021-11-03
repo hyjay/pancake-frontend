@@ -1690,7 +1690,7 @@ export const mainnetTokens = {
 export const testnetTokens = {
   wbnb: new Token(
     TESTNET,
-    '0x094616F0BdFB0b526bD735Bf66Eca0Ad254ca81F',
+    '0x2De32288E4414feF7F87a1d05468De584fB3524F',
     18,
     'WBNB',
     'Wrapped BNB',
@@ -1698,7 +1698,7 @@ export const testnetTokens = {
   ),
   cake: new Token(
     TESTNET,
-    '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+    '0xee91B6f0030d7c8C4E4f7E6AD6e8CdCB215894eC',
     18,
     'CAKE',
     'PancakeSwap Token',
@@ -1706,7 +1706,7 @@ export const testnetTokens = {
   ),
   busd: new Token(
     TESTNET,
-    '0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee',
+    '0x55d239cbF051809bFB9E56dD598751E47C547840',
     18,
     'BUSD',
     'Binance USD',
@@ -1714,7 +1714,7 @@ export const testnetTokens = {
   ),
   syrup: new Token(
     TESTNET,
-    '0xfE1e507CeB712BDe086f3579d2c03248b2dB77f9',
+    '0x7a9B862f5a85c24DFd1B07184F964444410dA246',
     18,
     'SYRUP',
     'SyrupBar Token',

@@ -10,8 +10,9 @@ export type TranslatableText =
       }
     }
 export interface Address {
-  97?: string
-  56: string
+  1001?: string // Klaytn Baobob testnet
+  97?: string // BSC testnet
+  56: string // BSC mainnet
 }
 
 export interface SerializedToken {
