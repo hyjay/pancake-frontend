@@ -1,6 +1,6 @@
 import Caver from 'caver-js'
 import getRpcUrl from 'utils/getRpcUrl'
-import { Web3Provider } from './klaytn/web3-provider'
+import { Web3Provider } from '@ethersproject/providers'
 
 const RPC_URL = getRpcUrl()
 
