@@ -17,7 +17,7 @@ export const getLotteryV2Address = () => {
   return getAddress(addresses.lotteryV2)
 }
 export const getPancakeProfileAddress = () => {
-  return getAddress(addresses.pancakeProfile)
+  throw Error('PancakeProfile contract is not available.')
 }
 export const getPancakeRabbitsAddress = () => {
   return getAddress(addresses.pancakeRabbits)
